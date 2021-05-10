@@ -9,10 +9,14 @@
   <body>
     <h1>Websocket server</h1>
 
-    <script src="./js/javascript-socket.js"></script>
+    <h2>User is</h2>
+    <span id="online">Online</span>
+    <span id="offline">Offline</span>
+
+    <input id="input" type="text" />
+    <button id="button">Send</button>
+
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-      var socket = io();
-    </script>
+    <script src="./js/javascript-socket.js"></script>
   </body>
 </html>
